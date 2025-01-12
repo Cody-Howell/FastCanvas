@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastCanvas", "FastCanvas.Library\FastCanvas.csproj", "{F04946C2-D41B-41CF-B412-D7BB22156D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastCanvas.Web", "FastCanvas.Web\FastCanvas.Web.csproj", "{FE799908-7B06-4F8A-90D8-9C815D05C6E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04946C2-D41B-41CF-B412-D7BB22156D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04946C2-D41B-41CF-B412-D7BB22156D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04946C2-D41B-41CF-B412-D7BB22156D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04946C2-D41B-41CF-B412-D7BB22156D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE799908-7B06-4F8A-90D8-9C815D05C6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE799908-7B06-4F8A-90D8-9C815D05C6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE799908-7B06-4F8A-90D8-9C815D05C6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE799908-7B06-4F8A-90D8-9C815D05C6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

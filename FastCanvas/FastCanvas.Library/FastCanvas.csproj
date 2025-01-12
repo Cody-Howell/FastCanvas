@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Version>0.8.0</Version>
+    <Authors>Howl Dev</Authors>
+    <Description>A class for working with HTML Canvas.</Description>
+    <PackageTags>canvas, HTML</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Cody-Howell/FastCanvas</RepositoryUrl>
+    <PackageIcon>_HowlDevLogo.png</PackageIcon>
+    <PackageReadmeFile>_README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="_HowlDevLogo.png" Pack="true" PackagePath="" />
+    <None Include="_README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>

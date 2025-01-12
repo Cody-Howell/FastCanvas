@@ -1,0 +1,33 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@inject IJSRuntime JS
+
+<PageTitle>Home</PageTitle>
+
+@* <img src="./lamp.jpg" id="lamp" /> *@
+<h1>Canvas Display</h1>
+
+
+<canvas id="myCanvas" width="500" height="500" style="border:1px solid #000;" tabindex="1" />
+
+@code {
+    private FastCanvas ctx = new FastCanvas();
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        // Create a Gradient
+        ctx.createLinearGradient(0, 0, 170, 0);
+        ctx.addColorStop(0, "black");
+        ctx.addColorStop(0.5, "red");
+        ctx.addColorStop(1, "white");
+        ctx.fillStyle = "";   // Anything in this string will be ignored.
+
+        // Draw a filled Rectangle
+        ctx.fillRect(20, 20, 150, 100);
+
+        await JS.InvokeVoidAsync("fastCanvasDraw", "myCanvas", ctx.Draw);
+    }
+
+
+}
+
