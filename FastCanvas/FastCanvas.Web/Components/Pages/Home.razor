@@ -16,16 +16,16 @@
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         // Create a Gradient
-        ctx.createLinearGradient(0, 0, 170, 0);
+        ctx.createLinearGradient(0, 0, 200, 200);
         ctx.addColorStop(0, "black");
         ctx.addColorStop(0.5, "red");
-        ctx.addColorStop(1, "white");
+        ctx.addColorStop(1, "#fffefe");
         ctx.fillStyle = "";   // Anything in this string will be ignored.
 
         // Draw a filled Rectangle
-        ctx.fillRect(20, 20, 150, 100);
+        ctx.fillRect(0, 0, 500, 500);
 
-        await JS.InvokeVoidAsync("fastCanvasDraw", "myCanvas", ctx.Draw);
+        await JS.InvokeVoidAsync("fastCanvasDraw", "myCanvas", ctx.Draw);s
     }
 
 

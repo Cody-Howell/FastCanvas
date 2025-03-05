@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <Version>0.8.0</Version>
+    <Version>1.0</Version>
     <Authors>Howl Dev</Authors>
     <Description>A class for working with HTML Canvas.</Description>
     <PackageTags>canvas, HTML</PackageTags>
